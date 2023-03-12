@@ -43,7 +43,7 @@ body{
 header{
     position: sticky;
     padding-top: 30px;
-    background-color: var(--cor0);
+    background: linear-gradient( to left, rgb(0, 0, 0), rgb(30, 40, 42))   ;
     color: var(--cor5);
 }
 
@@ -95,7 +95,7 @@ header a:hover{
 }
 
 main{
-    max-width: 1000px;
+    max-width: 85vw;
     background-color: var(--cor2);
     padding: 25px 10px;
     margin: auto;
