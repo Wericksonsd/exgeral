@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100;0,200;0,400;0,600;0,900;1,100;1,200;1,400;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+:root{
+    --fontnormal: 'Raleway', sans-serif;
+    --fonttit: 'Oswald', sans-serif;
+    --fonttext2: 'Genos', sans-serif;
+    --cor0: rgb(14, 19,23);
+    --cor1: rgb(30, 40, 42);
+    --cor2: rgb(0, 0, 0);
+    --cor4: rgb(207, 189, 185);
+    --cor5: rgb(255, 255, 255);
+
+    /*FORGOTTEN CROSSROADS*/
+
+    --fc0: rgb(8, 11, 18);
+    --fc1: rgb(29, 41, 81);
+    --fc2: rgb(69, 86, 130);
+    --fc3: rgb(141, 175, 212);
+    --fc4: rgb(255, 255, 150);
+    --fc5: rgb(246, 206, 131);
+    --fc6: rgb(236, 129, 115);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontnormal);
+}
+
+body{
+    height: 98vh;
+    background: var(--cor4) url("../imgs/Menu_Theme_Classic_Current.webp") center center no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    position: sticky;
+    padding-top: 30px;
+    background-color: var(--cor0);
+    color: var(--cor5);
+}
+
+header h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 5em;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 15px var(--cor4);
+}
+
+header p{
+    text-align: center;
+}
+
+header menu{
+    display: none;
+}
+
+#menubar{
+    padding: 5px;
+    background-color: var(--cor2);
+    color: var(--cor4);
+    display: block;
+    margin: 10px -30px 0 -30px;
+    text-align: center;
+}
+
+#menubar:hover{
+    cursor: pointer;
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+
+
+header a{
+    display: block;
+    border-top: 2px solid var(--cor4);
+    text-decoration: none;
+    color: var(--cor5);
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+header a:hover{
+    background-color: var(--cor5);
+    color: var(--cor1);
+}
+
+main{
+    max-width: 1000px;
+    background-color: var(--cor2);
+    padding: 25px 10px;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+#tags{
+    padding: 15px;
+    margin: -25px -10px 0 -10px;    
+    background: url("../imgs/forgotten-crossroads.png") center center no-repeat scroll;
+    background-size: cover;
+    color: aliceblue;
+    line-height: 2em;
+}
+
+#tags h3{
+    margin-top: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    width: 100px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -15px;
+    background-color: var(--fc1);
+}
+
+#tags p {
+    text-align: justify;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+}
+
+.fieldsetcdg{
+    border-radius: 10px;
+    margin: 0 15px;
+}
+
+.fieldsetcdg legend{
+    font-size: 0.7em;
+    padding-left: 5px;
+}
+
+.code{
+    padding: 4px;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.listex{
+    padding-left: 30px;
+}
+
+.negr{
+    font-weight: bolder;
+}
+
+.itlc{
+    font-style: italic;
+}
+
+.subl{
+    text-decoration: underline;
+}
