@@ -129,6 +129,8 @@ h2{
 #tags p {
     text-align: justify;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+    line-height: 3em;
+    padding: 10px 0;
 }
 
 .fieldsetcdg{
