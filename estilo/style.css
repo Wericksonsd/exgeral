@@ -132,12 +132,7 @@ h2{
     padding: 10px 0;
 }
 
-#infectedcross{
-    background: var(--fc1) url("../imgs/infected.png") center center no-repeat scroll;
-    background-size: cover;
-    margin: 30px -15px;
-    min-height: 2400px;
-}
+
 
 
 
