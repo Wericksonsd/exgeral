@@ -133,8 +133,22 @@ h2{
     padding: 10px 0;
 }
 
+footer{
+    padding: 15px;
+    background: linear-gradient(to left, rgb(131, 77, 77), rgb(214, 187, 171), rgb(131, 77, 77)) rgb( 230, 208, 195);  
+    color: rgb( 14, 14, 44);
+    text-align: center;
+}
 
+footer a{
+    text-decoration: none;
+    font-weight: bold;    
+    color: rgb( 14, 14, 44);
+}
 
+footer a:hover{
+    text-decoration: underline;
+}
 
 
 
