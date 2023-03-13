@@ -57,6 +57,7 @@ header h1{
 
 header p{
     text-align: center;
+    padding-bottom: 15px;
 }
 
 header menu{
@@ -119,7 +120,7 @@ h2{
     margin-top: 30px;
     padding: 5px;
     padding-left: 20px;
-    width: 100px;
+    width: 200px;
     border-radius: 0 5px 5px 0;
     margin-left: -15px;
     background-color: var(--fc1);
