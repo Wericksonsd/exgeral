@@ -172,6 +172,18 @@ footer a:hover{
     text-shadow: none;
 }
 
+.css{
+    padding: 4px;
+    background-color: transparent;
+    color: var(--cor5);
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    text-shadow: none;
+}
+
 .listex{
     padding-left: 30px;
 }
