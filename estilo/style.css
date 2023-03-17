@@ -41,7 +41,6 @@ body{
 }
 
 header{
-    position: sticky;
     padding-top: 30px;
     background: linear-gradient( to left, rgb(0, 0, 0), rgb(30, 40, 42))   ;
     color: var(--cor5);
@@ -61,6 +60,7 @@ header p{
 }
 
 menu{
+    overflow: hidden;
     display: none;
 }
 
@@ -68,6 +68,10 @@ menu{
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
 
 #menubar{
@@ -83,6 +87,7 @@ menu{
     background-color: var(--cor4);
     color: var(--cor1);
 }
+
 
 
 menu a{

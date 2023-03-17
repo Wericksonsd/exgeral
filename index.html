@@ -13,20 +13,21 @@
     <header>
         <h1>Resumão</h1>
         <p>Um resumo dos conteúdos de HTML5 e CSS3.</p>
-        <span class="material-symbols-outlined" id="menubar" onclick="clickMenu()">
-                menu
-            </span>
+        <span id="menubar" onclick="clickMenu()">
+                |  |  |
+        <menu id="itens">
+            <ul>
+                <li><a href="#tags">Tags</a></li>
+                <li><a href="#imgfun">Imagem Fundo</a></li>
+                <li><a href="#">Tabelas</a></li>
+                <li><a href="#">Botões</a></li>
+                <li><a href="#">Formulários</a></li>
+            </ul>
+        </menu>
+        </span>
         
     </header>
-    <menu id="itens">
-        <ul>
-            <li><a href="#tags">Tags</a></li>
-            <li><a href="#imgfun">Imagem Fundo</a></li>
-            <li><a href="#">Tabelas</a></li>
-            <li><a href="#">Botões</a></li>
-            <li><a href="#">Formulários</a></li>
-        </ul>
-    </menu>
+    
     <main>
         <section id="tags">
             <h2>Tags</h2>
@@ -104,10 +105,11 @@
         }
 
 
+        // When the user scrolls the page, execute myFunction
         window.onscroll = function() {myFunction()};
 
         // Get the navbar
-        var navbar = document.querySelector(".itens");
+        var navbar = document.querySelector("#menubar");
 
         // Get the offset position of the navbar
         var sticky = navbar.offsetTop;
@@ -115,9 +117,9 @@
         // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
         function myFunction() {
         if (window.pageYOffset >= sticky) {
-            navbar.classList.add("itens")
+            navbar.classList.add("sticky")
         } else {
-            navbar.classList.remove("itens");
+            navbar.classList.remove("sticky");
         }
         }
     </script>
